@@ -1,0 +1,12 @@
+.input {
+  border: none;
+  background-color: var(--gray-500);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+  color: var(--gray-100);
+}
+
+.input:focus {
+  outline: 1px solid var(--purple);
+}

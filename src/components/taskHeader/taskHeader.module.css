@@ -1,0 +1,34 @@
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.tasks div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tasks p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tasks span {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 999px;
+  padding: 2px 0.5rem;
+}
+
+.tasks .created {
+  color: var(--blue);
+}
+
+.tasks .completed {
+  color: var(--purple);
+}

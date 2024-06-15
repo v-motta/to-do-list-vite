@@ -1,0 +1,17 @@
+.divLogo {
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.logo {
+  font-weight: 800;
+  color: var(--blue);
+  font-size: 40px;
+}
+
+.logo span {
+  color: var(--purple-dark);
+}
