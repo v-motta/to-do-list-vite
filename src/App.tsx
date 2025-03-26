@@ -77,6 +77,8 @@ function App() {
           </Button>
         </form>
 
+        {import.meta.env.VITE_TEST_FIRST_VAR}
+
         <TaskHeader tasksLength={tasks.length} completedTasks={completedTasksCounter} />
 
         <div className={styles.taskList}>
